@@ -1,0 +1,22 @@
+{
+  "name": "@sergiomgaspar/sandbox",
+  "version": "1.0.2",
+  "description": "FCC Timestamp",
+  "main": "timestamp.js",
+  "scripts": {
+    "test": "node timestamp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiomgaspar/smg-timestamp.git"
+  },
+  "author": "sergiomgaspar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiomgaspar/smg-timestamp/issues"
+  },
+  "homepage": "https://github.com/sergiomgaspar/smg-timestamp#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2"
+  }
+}
