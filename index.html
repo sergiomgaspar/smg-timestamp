@@ -1,1 +1,49 @@
-<h1>Hello world !!!</h1>
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>SMG - Timestamp microservice</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   </head>
+   <body>
+      <div class="container">
+         <h1 class="header">
+            Timestamp microservice for FreeCodeCamp
+         </h1>
+         <blockquote>
+            User stories:
+            <ul>1) I can pass a string as a parameter, and it will check to see whether that string 
+               contains either a unix timestamp or a natural language date (example: January 1, 2016)
+            </ul>
+            <ul>2) If it does, it returns both the Unix timestamp and the natural language form of that date.</ul>
+            <ul>3) If it does not contain a date or Unix timestamp, it returns null for those properties.</ul>
+         </blockquote>
+         <h3>Example usage:</h3>
+         <code>https://smg-timestamp.herokuapp.com/August%2028,%201981</code><br>
+         <code>https://smg-timestamp.herokuapp.com/367857601</code>
+         <h3>Example output:</h3>
+         <code>
+         {
+         "unix": 367857601,
+         "natural": "August 28, 1981"
+         }
+         </code>
+      </div>
+      <br><br>
+   </body>
+   <footer class="footer">
+      <script src="https://use.fontawesome.com/c51cc08ec6.js"></script>
+      <div class="container-fluid text-center">
+         <div class="footer-text text-muted row">
+            Created by Sérgio Gaspar for freeCodeCamp Challenge:
+            <a href="https://www.freecodecamp.com/challenges/timestamp-microservice" target="_blank">Timestamp Microservice</a>.
+         </div>
+         <div class="social-icons">
+            <h2><a href="https://github.com/sergiomgaspar" target="_blank"  ><i id="github" class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="http://codepen.io/sergiomgaspar/" target="_blank"><i id="codepen" class="fa fa-codepen" aria-hidden="true"></i></a>
+            <a href="https://www.freecodecamp.com/sergiomgaspar" target="_blank"><i id="freecodecamp" class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/sergiomgaspar" target="_blank"><i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/sergiomgaspar" target="_blank"><i id="twitter" class="fa fa-twitter" aria-hidden="true"></i></a></h2>
+         </div>
+      </div>
+   </footer>
+</html>
