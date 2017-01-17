@@ -4,6 +4,7 @@
   "description": "FCC Timestamp",
   "main": "timestamp.js",
   "scripts": {
+    "start": "node timestamp.js",
     "test": "node timestamp.js"
   },
   "repository": {
